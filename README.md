@@ -11,7 +11,7 @@ This project is a simple matching card game built with:
 1. Clone the repo
 
 ```bash
-git clone https://github.com/decenabean/card-matching-game.git
+git clone https://github.com/decenabean/matching-card-game.git
 cd card-matching-game
 ```
 
