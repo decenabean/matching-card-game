@@ -1,0 +1,67 @@
+/* Final Project CSS */
+body {
+  font-family: 'Gill Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  height: 100vh;
+  background: #F2E8D0;
+  color: #F88B02;
+  font-size: large;
+}
+header {
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  width: 100%;
+}
+h1 {
+  font-size: 3.2rem;
+  color: #F88B02;
+  margin: 0;
+}
+/* Game specific CSS */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 10px;
+}
+/* Front of card with fruit image */
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: #A3C20F;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+}
+.card:hover {
+  background-color: #F0E343;
+}
+/* Flip Counter */
+#info {
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+/* Reset Button */
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #F88B02;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+#reset:hover {
+  background-color: #F6BA3D;
+}

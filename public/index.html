@@ -1,0 +1,38 @@
+<!--
+  File Name: index.html
+  Author: Ana Decena
+  Date: 22 April 2025
+  Description: Main page for demo of final prject
+
+  Certification of Authenticity: I certify that this program is entirely my own work. pinky promise
+
+  Input: User can click on cards to "flip" them for a card matching game
+  Output: Display changes based on user clicks
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matching Card Game</title>
+  <link rel="stylesheet" href="final.css">
+  <!-- Links to JS -->
+  <script async type="text/javascript" src="game.js"></script>
+</head>
+<body>
+  <!-- Header with Title -->
+  <header>
+    <h1>Matching Card Game</h1>
+  </header>
+    
+  <!-- Area for 3 x 4 game board -->
+  <div class="game-board" id="gameBoard"></div>
+
+  <!-- Qwik component -->
+  <div id="counter-root"></div>
+  <script type="module" src="/src/entry.counter.tsx"></script>
+
+  <!-- Reset Button -->
+  <button id="reset">Reset Game</button>
+</body>
+</html>
