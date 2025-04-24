@@ -12,7 +12,7 @@ This project is a simple matching card game built with:
 
 ```bash
 git clone https://github.com/decenabean/matching-card-game.git
-cd card-matching-game
+cd matching-card-game
 ```
 
 2. Install dependencies
